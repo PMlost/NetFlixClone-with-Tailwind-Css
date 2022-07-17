@@ -1,0 +1,12 @@
+.nav {
+  background-color: #111;
+  @apply fixed top-0 flex justify-between w-full p-2 h-10;
+}
+
+.logo {
+  @apply w-20 object-contain;
+}
+
+.avatar {
+  @apply w-[30px] object-contain;
+}

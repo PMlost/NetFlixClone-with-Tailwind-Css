@@ -1,0 +1,24 @@
+.banner {
+  @apply text-white h-[448px] object-contain;
+}
+
+.banner__contents {
+  @apply ml-[30px] h-[190px] pt-[140px];
+}
+
+.banner__title {
+  @apply text-5xl font-extrabold pb-1.5;
+}
+
+.banner__description {
+  @apply w-[45rem] text-sm max-w-[360px] h-[80px];
+}
+
+.banner__button {
+  @apply cursor-pointer outline-none border-none text-white font-bold rounded px-8 py-2 mr-4;
+  background-color: rgb(51, 51, 51, 0.5);
+}
+
+.banner__button:hover {
+  @apply text-black bg-white;
+}

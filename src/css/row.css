@@ -1,0 +1,27 @@
+.row {
+  @apply text-white ml-5;
+}
+
+.row__posters {
+  @apply flex p-5 cursor-pointer overflow-x-scroll overflow-y-hidden;
+}
+
+.row__posters::-webkit-scrollbar {
+  @apply hidden;
+}
+.row__poster {
+  @apply w-full  object-contain h-[100px] mr-[10px];
+  transition: transform 450ms;
+}
+
+.row__poster:hover {
+  transform: scale(1.08);
+}
+
+.row__posterLarge {
+  height: 190px;
+}
+
+.row__posterLarge:hover {
+  transform: scale(1.09);
+}
